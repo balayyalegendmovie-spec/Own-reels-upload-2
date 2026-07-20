@@ -38,7 +38,7 @@ ASSET_MODE = os.getenv("ASSET_MODE", "production") # 'development' or 'productio
 RENDER_MODE = os.getenv("RENDER_MODE", "cinematic") # 'minimal' or 'cinematic'
 
 # External API Keys
-PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "VH7Jg7XY2NzZ3N1spws2hq0mrf7f5vA5KzVWDsRBSnGQh0aHzwLZxWzm")
+PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 JAMENDO_CLIENT_ID = os.getenv("JAMENDO_CLIENT_ID", "")
 
