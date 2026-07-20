@@ -127,3 +127,63 @@ class StoryEngine:
         except Exception as e:
             logger.error(f"Error generating story: {e}. Using fallback.")
             return self._get_fallback_story(theme)
+
+    def generate_new_topics(self, count: int = 5) -> list:
+        """
+        Brainstorm new topics when the queue runs dry.
+        """
+        if self.use_fallback:
+            return [{"id": f"q_fallback_{i}", "topic": "life lessons", "emotion": "peaceful", "target_audience": "general", "language": "telugu", "style": "cinematic", "status": "pending"} for i in range(count)]
+            
+        recent_topics = "None"
+        if self.history_manager:
+            recent_stories = self.history_manager.history.get("stories_used", [])[-20:]
+            recent_topics = ", ".join([s.get("theme", "") if isinstance(s, dict) else s for s in recent_stories])
+            
+        prompt = f"""
+        You are an expert Instagram Reel strategist for a Telugu motivational page.
+        I need {count} BRAND NEW, viral topic ideas for short video reels.
+        
+        Recent topics we ALREADY did (DO NOT REPEAT THESE): {recent_topics}
+        
+        Output strictly as a JSON array of objects with this schema:
+        [
+            {{
+                "id": "q_unique_id",
+                "topic": "The core concept (e.g., 'never comparing yourself to others')",
+                "emotion": "One of: motivation, emotional, peace",
+                "target_audience": "students, professionals, young adults, etc.",
+                "language": "telugu",
+                "style": "cinematic",
+                "status": "pending"
+            }}
+        ]
+        
+        Generate {count} distinct JSON objects now. Do not include markdown formatting or anything outside the JSON array.
+        """
+        
+        try:
+            logger.info("Brainstorming new topics via Gemini...")
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
+            headers = {'Content-Type': 'application/json'}
+            payload = {
+                "contents": [{
+                    "parts": [{"text": prompt}]
+                }]
+            }
+            response = requests.post(url, headers=headers, json=payload)
+            response.raise_for_status()
+            
+            res_json = response.json()
+            text = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+            
+            if text.startswith("```json"):
+                text = text[7:]
+            if text.endswith("```"):
+                text = text[:-3]
+                
+            data = json.loads(text.strip())
+            return data
+        except Exception as e:
+            logger.error(f"Error generating new topics: {e}")
+            return []

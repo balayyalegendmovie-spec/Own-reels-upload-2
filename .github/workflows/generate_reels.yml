@@ -2,7 +2,8 @@ name: Daily Telugu Reel Factory
 
 on:
   schedule:
-    - cron: "30 0 * * *" # Runs every day at 00:30 UTC (6:00 AM IST)
+    - cron: "0 3 * * *"   # 8:30 AM IST
+    - cron: "30 13 * * *" # 7:00 PM IST
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
@@ -27,6 +28,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Smart Delay (Anti-Ban)
+        run: |
+          # Sleep for a random amount of time between 60 seconds and 2700 seconds (45 mins)
+          # This makes the upload time look human and unpredictable
+          DELAY=$(shuf -i 60-2700 -n 1)
+          echo "Sleeping for $DELAY seconds to prevent bot detection..."
+          sleep $DELAY
 
       - name: Run Pipeline (Testing Mode if no IG_SESSION)
         env:

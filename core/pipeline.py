@@ -70,8 +70,21 @@ class Pipeline:
             queue = json.load(f)
             
         pending_tasks = [q for q in queue if q.get("status") == "pending"]
+        
+        # Infinite Content Engine: Refill queue if empty
         if not pending_tasks:
-            logger.info("No pending tasks in content queue.")
+            logger.info("Content queue is empty! Auto-generating new topics via Gemini...")
+            new_topics = self.story_engine.generate_new_topics(count=5)
+            if new_topics:
+                queue.extend(new_topics)
+                pending_tasks = new_topics
+                logger.info(f"Successfully brainstormed {len(new_topics)} new topics and added to queue.")
+            else:
+                logger.error("Failed to auto-generate new topics. Pipeline halting.")
+                return
+                
+        if not pending_tasks:
+            logger.info("No pending tasks in content queue despite auto-fill attempt.")
             return
             
         current_task = pending_tasks[0]
