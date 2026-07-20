@@ -5,3 +5,8 @@ Pillow
 opencv-python
 google-genai
 python-dotenv
+instagrapi
+requests
+uharfbuzz
+freetype-py
+numpy
