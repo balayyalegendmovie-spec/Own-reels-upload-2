@@ -1,0 +1,47 @@
+name: Daily Telugu Reel Factory
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # Runs every day at 00:30 UTC (6:00 AM IST)
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install System Dependencies (FFmpeg & Fonts)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-ui-core
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Pipeline (Testing Mode if no IG_SESSION)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          IG_SESSION: ${{ secrets.IG_SESSION }}
+          MODE: "production"
+        run: |
+          python main.py
+
+      - name: Commit and Push Database Updates
+        if: always()
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add input/content_queue.json database/
+          git commit -m "Auto-update database and content queue after reel generation" || echo "No changes to commit"
+          git push

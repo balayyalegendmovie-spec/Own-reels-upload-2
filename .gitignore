@@ -1,0 +1,38 @@
+# Secrets and Environments
+.env
+session.json
+credentials.json
+token.json
+*.pem
+*.key
+
+# Output and Temp directories
+output/
+videos/
+music/
+assets/
+temp/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+venv-*/
+*venv*/
+
+# Database (keep structure, ignore data? No, we need database json files to be pushed)
+# But wait, history_db.json and content_queue.json are part of the process, they should be tracked.
+# We will NOT ignore them.
+
+# Logs
+*.log
+logs/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo

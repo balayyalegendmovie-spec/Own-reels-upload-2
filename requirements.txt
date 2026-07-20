@@ -1,0 +1,7 @@
+edge-tts
+moviepy
+ffmpeg-python
+Pillow
+opencv-python
+google-genai
+python-dotenv

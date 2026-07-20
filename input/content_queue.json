@@ -1,0 +1,29 @@
+[
+    {
+        "id": "q_001",
+        "topic": "never giving up",
+        "emotion": "motivation",
+        "target_audience": "students",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_002",
+        "topic": "true meaning of friendship",
+        "emotion": "emotional",
+        "target_audience": "young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_003",
+        "topic": "importance of saving money",
+        "emotion": "hope",
+        "target_audience": "professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    }
+]
