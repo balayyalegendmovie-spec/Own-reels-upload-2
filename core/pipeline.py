@@ -97,9 +97,6 @@ class Pipeline:
             
             # Update queue status
             current_task["status"] = "completed"
-            with open(queue_file, "w", encoding="utf-8") as f:
-                json.load(f) # Just to ensure valid JSON before writing? No, json.dump.
-                pass
                 
         except Exception as e:
             logger.error(f"Pipeline failed for {theme}: {e}", exc_info=True)
