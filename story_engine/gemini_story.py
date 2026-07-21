@@ -3,7 +3,7 @@ import logging
 import requests
 import os
 from typing import Dict, Any
-from core.config import GEMINI_API_KEY
+from core.config import GEMINI_API_KEY, GEMINI_API_KEY_2
 
 logger = logging.getLogger(__name__)
 
@@ -101,37 +101,49 @@ class StoryEngine:
             return self._get_fallback_story(theme)
             
         try:
-            logger.info(f"Generating story for theme: {theme}")
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
-            headers = {'Content-Type': 'application/json'}
-            payload = {
-                "contents": [{
-                    "parts": [{"text": prompt}]
-                }],
-                "generationConfig": {
-                    "temperature": 0.9,
-                    "topP": 0.95
-                }
-            }
-            response = requests.post(url, headers=headers, json=payload)
-            response.raise_for_status()
-            
-            # Parse Gemini response
-            res_json = response.json()
-            text = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-            
-            # Clean up markdown formatting if the model wraps the response in ```json ... ```
-            if text.startswith("```json"):
-                text = text[7:]
-            if text.endswith("```"):
-                text = text[:-3]
+            keys = [GEMINI_API_KEY]
+            if GEMINI_API_KEY_2:
+                keys.append(GEMINI_API_KEY_2)
                 
-            data = json.loads(text.strip())
-            
-            # Combine parts into a single script for TTS processing
-            data["script"] = f"{data.get('hook', '')} {data.get('story', '')} {data.get('emotional_payoff', '')} {data.get('lesson', '')} {data.get('cta', '')}".strip()
-            
-            return data
+            for i, key in enumerate(keys):
+                try:
+                    logger.info(f"Generating story for theme: {theme} (Using key {i+1})")
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={key}"
+                    headers = {'Content-Type': 'application/json'}
+                    payload = {
+                        "contents": [{
+                            "parts": [{"text": prompt}]
+                        }],
+                        "generationConfig": {
+                            "temperature": 0.9,
+                            "topP": 0.95
+                        }
+                    }
+                    response = requests.post(url, headers=headers, json=payload)
+                    response.raise_for_status()
+                    
+                    # Parse Gemini response
+                    res_json = response.json()
+                    text = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+                    
+                    # Clean up markdown formatting if the model wraps the response in ```json ... ```
+                    if text.startswith("```json"):
+                        text = text[7:]
+                    if text.endswith("```"):
+                        text = text[:-3]
+                        
+                    data = json.loads(text.strip())
+                    
+                    # Combine parts into a single script for TTS processing
+                    data["script"] = f"{data.get('hook', '')} {data.get('story', '')} {data.get('emotional_payoff', '')} {data.get('lesson', '')} {data.get('cta', '')}".strip()
+                    
+                    return data
+                except requests.exceptions.HTTPError as he:
+                    if he.response.status_code == 429 and key != keys[-1]:
+                        logger.warning("API key hit rate limit. Trying secondary key...")
+                        continue
+                    raise he
+                    
         except Exception as e:
             logger.error(f"Error generating story: {e}. Using fallback.")
             return self._get_fallback_story(theme)
@@ -172,26 +184,38 @@ class StoryEngine:
         
         try:
             logger.info("Brainstorming new topics via Gemini...")
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
-            headers = {'Content-Type': 'application/json'}
-            payload = {
-                "contents": [{
-                    "parts": [{"text": prompt}]
-                }]
-            }
-            response = requests.post(url, headers=headers, json=payload)
-            response.raise_for_status()
-            
-            res_json = response.json()
-            text = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
-            
-            if text.startswith("```json"):
-                text = text[7:]
-            if text.endswith("```"):
-                text = text[:-3]
+            keys = [GEMINI_API_KEY]
+            if GEMINI_API_KEY_2:
+                keys.append(GEMINI_API_KEY_2)
                 
-            data = json.loads(text.strip())
-            return data
+            for i, key in enumerate(keys):
+                try:
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={key}"
+                    headers = {'Content-Type': 'application/json'}
+                    payload = {
+                        "contents": [{
+                            "parts": [{"text": prompt}]
+                        }]
+                    }
+                    response = requests.post(url, headers=headers, json=payload)
+                    response.raise_for_status()
+                    
+                    res_json = response.json()
+                    text = res_json['candidates'][0]['content']['parts'][0]['text'].strip()
+                    
+                    if text.startswith("```json"):
+                        text = text[7:]
+                    if text.endswith("```"):
+                        text = text[:-3]
+                        
+                    data = json.loads(text.strip())
+                    return data
+                except requests.exceptions.HTTPError as he:
+                    if he.response.status_code == 429 and key != keys[-1]:
+                        logger.warning("API key hit rate limit. Trying secondary key...")
+                        continue
+                    raise he
+                    
         except Exception as e:
             logger.error(f"Error generating new topics: {e}")
             return []

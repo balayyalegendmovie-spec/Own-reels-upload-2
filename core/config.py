@@ -10,6 +10,7 @@ HISTORY_FILE = BASE_DIR / "database" / "history_db.json"
 
 # API Keys and Secrets
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY_2 = os.getenv("GEMINI_API_KEY_2")
 PEXELS_API_KEY = os.getenv("PEXELS_API_KEY")
 IG_SESSION = os.getenv("IG_SESSION")
 
@@ -40,6 +41,7 @@ RENDER_MODE = os.getenv("RENDER_MODE", "cinematic") # 'minimal' or 'cinematic'
 # External API Keys
 PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+GEMINI_API_KEY_2 = os.getenv("GEMINI_API_KEY_2", "")
 JAMENDO_CLIENT_ID = os.getenv("JAMENDO_CLIENT_ID", "")
 
 def ensure_directories():
