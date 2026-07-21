@@ -1,1 +1,19 @@
-{}
+{
+    "stories_used": [
+        {
+            "hook": "Guys ఒక్క నిమిషం ఆగి ఇది వినండి... ఇది మీ కోసమే.",
+            "theme": "life lessons",
+            "emotion": "motivation",
+            "timestamp": "2026-07-21T15:51:05.592735"
+        }
+    ],
+    "videos_used": [
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/person_thinking_deep_ec7d0b.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/struggle_focus_working_5297f1.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/success_mountain_view_0f3ea6.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/smartphone_follow_button_739fcf.mp4"
+    ],
+    "music_used": [
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_2.mp3"
+    ]
+}

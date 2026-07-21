@@ -25,5 +25,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_fallback_0",
+        "topic": "life lessons",
+        "emotion": "peaceful",
+        "target_audience": "general",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_fallback_1",
+        "topic": "life lessons",
+        "emotion": "peaceful",
+        "target_audience": "general",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_fallback_2",
+        "topic": "life lessons",
+        "emotion": "peaceful",
+        "target_audience": "general",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_fallback_3",
+        "topic": "life lessons",
+        "emotion": "peaceful",
+        "target_audience": "general",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_fallback_4",
+        "topic": "life lessons",
+        "emotion": "peaceful",
+        "target_audience": "general",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
