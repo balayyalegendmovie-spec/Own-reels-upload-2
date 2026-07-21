@@ -243,7 +243,6 @@ class Pipeline:
                         self.uploader.upload_reel(final_reel_path, caption, thumb)
                 else:
                     logger.info("Quality >= 80, but Mode=TESTING. Skipping upload.")
-            else:
             
             break
 
