@@ -49,4 +49,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add input/content_queue.json database/
           git commit -m "Auto-update database and content queue after reel generation" || echo "No changes to commit"
+          git pull --rebase || echo "Pull failed"
           git push

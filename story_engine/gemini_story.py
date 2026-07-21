@@ -103,7 +103,11 @@ class StoryEngine:
             payload = {
                 "contents": [{
                     "parts": [{"text": prompt}]
-                }]
+                }],
+                "generationConfig": {
+                    "temperature": 0.9,
+                    "topP": 0.95
+                }
             }
             response = requests.post(url, headers=headers, json=payload)
             response.raise_for_status()

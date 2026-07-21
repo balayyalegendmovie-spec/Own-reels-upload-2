@@ -101,12 +101,12 @@ class MemoryManager:
             # Simple word overlap similarity check
             if hook_words and past_hook_words:
                 hook_overlap = len(hook_words.intersection(past_hook_words))
-                if hook_overlap / len(hook_words) > 0.6:  # 60% overlap in hook
+                if hook_overlap / len(hook_words) > 0.4:  # Stricter: 40% overlap in hook
                     return True
                     
             if theme_words and past_theme_words:
                 theme_overlap = len(theme_words.intersection(past_theme_words))
-                if theme_overlap / len(theme_words) > 0.7:  # 70% overlap in theme
+                if theme_overlap / len(theme_words) > 0.5:  # Stricter: 50% overlap in theme
                     return True
                     
         return False
