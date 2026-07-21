@@ -31,6 +31,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Smart Delay (Anti-Ban)
+        run: |
+          # Sleep for a random amount of time between 60 seconds and 2700 seconds (45 mins)
+          # This makes the upload time look human and unpredictable
+          DELAY=$(shuf -i 60-2700 -n 1)
+          echo "Sleeping for $DELAY seconds to prevent bot detection..."
+          sleep $DELAY
+
       - name: Run Pipeline (Testing Mode if no IG_SESSION)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
