@@ -9,16 +9,13 @@ logger = logging.getLogger(__name__)
 
 class MemoryManager:
     def __init__(self):
-        self.history_db_file = BASE_DIR / "history_db.json"
-        self.fallback_file = HISTORY_FILE
+        self.history_db_file = HISTORY_FILE
         self.history = self.load_history()
 
     def load_history(self) -> Dict[str, Any]:
         """Load history from JSON file or return default structure."""
         file_to_load = self.history_db_file
-        if not file_to_load.exists() and self.fallback_file.exists():
-            file_to_load = self.fallback_file
-            
+        
         if file_to_load.exists():
             try:
                 with open(file_to_load, 'r', encoding='utf-8') as f:
