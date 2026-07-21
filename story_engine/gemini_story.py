@@ -139,8 +139,8 @@ class StoryEngine:
                     
                     return data
                 except requests.exceptions.HTTPError as he:
-                    if he.response.status_code == 429 and key != keys[-1]:
-                        logger.warning("API key hit rate limit. Trying secondary key...")
+                    if he.response.status_code in (429, 503) and key != keys[-1]:
+                        logger.warning(f"API key hit rate limit or 503 (Status: {he.response.status_code}). Trying secondary key...")
                         continue
                     raise he
                     
@@ -211,11 +211,11 @@ class StoryEngine:
                     data = json.loads(text.strip())
                     return data
                 except requests.exceptions.HTTPError as he:
-                    if he.response.status_code == 429 and key != keys[-1]:
-                        logger.warning("API key hit rate limit. Trying secondary key...")
+                    if he.response.status_code in (429, 503) and key != keys[-1]:
+                        logger.warning(f"API key hit rate limit or 503 (Status: {he.response.status_code}). Trying secondary key...")
                         continue
                     raise he
                     
         except Exception as e:
-            logger.error(f"Error generating new topics: {e}")
-            return []
+            logger.error(f"Error generating new topics: {e}. Using fallback topics.")
+            return [{"id": f"q_fallback_{i}", "topic": "life lessons", "emotion": "peaceful", "target_audience": "general", "language": "telugu", "style": "cinematic", "status": "pending"} for i in range(count)]
