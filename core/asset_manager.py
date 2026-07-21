@@ -2,26 +2,17 @@ import logging
 from typing import Dict, Any
 
 from core.config import ASSET_MODE
-from generated_asset_provider import GeneratedAssetProvider
 from visual.pexels_provider import PexelsProvider
 
 logger = logging.getLogger(__name__)
 
 class AssetManager:
     """
-    Facade for managing assets. Selects the appropriate provider based on ASSET_MODE.
+    Facade for managing assets.
     """
     def __init__(self):
-        self.mode = ASSET_MODE
-        if self.mode == "development":
-            self.provider = GeneratedAssetProvider()
-            logger.info("AssetManager initialized in DEVELOPMENT mode.")
-        elif self.mode == "production":
-            self.provider = PexelsProvider()
-            logger.info("AssetManager initialized in PRODUCTION mode.")
-        else:
-            logger.warning(f"Unknown ASSET_MODE '{self.mode}'. Falling back to development.")
-            self.provider = GeneratedAssetProvider()
+        self.provider = PexelsProvider()
+        logger.info("AssetManager initialized in PRODUCTION mode.")
 
     def ensure_assets(self) -> Dict[str, Any]:
         """Ensure the pipeline has all required media before generation starts."""
