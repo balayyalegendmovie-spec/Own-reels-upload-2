@@ -10,3 +10,5 @@ requests
 uharfbuzz
 freetype-py
 numpy
+
+pydub
