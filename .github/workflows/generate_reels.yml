@@ -35,6 +35,7 @@ jobs:
       - name: Run Pipeline (Testing Mode if no IG_SESSION)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           JAMENDO_CLIENT_ID: ${{ secrets.JAMENDO_CLIENT_ID }}
           IG_SESSION: ${{ secrets.IG_SESSION }}
