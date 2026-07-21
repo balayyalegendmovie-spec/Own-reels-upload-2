@@ -10,5 +10,11 @@
         "error": "Failed to generate a valid story after max retries.",
         "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 96, in run\n    self._execute_pipeline(theme, current_task)\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 136, in _execute_pipeline\n    raise Exception(\"Failed to generate a valid story after max retries.\")\nException: Failed to generate a valid story after max retries.\n",
         "timestamp": "2026-07-21T15:58:16.552967"
+    },
+    {
+        "task_id": "q_fallback_2",
+        "error": "Failed to generate a valid story after max retries.",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 96, in run\n    self._execute_pipeline(theme, current_task)\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 136, in _execute_pipeline\n    raise Exception(\"Failed to generate a valid story after max retries.\")\nException: Failed to generate a valid story after max retries.\n",
+        "timestamp": "2026-07-21T16:07:00.974239"
     }
 ]
