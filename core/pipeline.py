@@ -220,7 +220,15 @@ class Pipeline:
             if MODE == "production":
                 logger.info("Quality >= 80 and Mode=PRODUCTION. Initiating upload...")
                 if self.uploader.login():
-                    caption = f"{story_data.get('hook', '')} \n\n#telugu #motivation #telugureels"
+                    ai_caption = story_data.get('caption', story_data.get('hook', ''))
+                    ai_hashtags = story_data.get('hashtags', '#telugu #telugureels #motivation #trending')
+                    
+                    # Ensure hashtags aren't duplicated if the AI already included them in the caption
+                    if ai_hashtags not in ai_caption:
+                        caption = f"{ai_caption}\n\n{ai_hashtags}"
+                    else:
+                        caption = ai_caption
+                        
                     thumb = final_reel_path.replace(".mp4", "_thumb.jpg")
                     self.uploader.upload_reel(final_reel_path, caption, thumb)
             else:

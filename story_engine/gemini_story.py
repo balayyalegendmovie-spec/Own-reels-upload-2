@@ -28,6 +28,8 @@ class StoryEngine:
             "emotional_payoff": "ఎవరి కోసమో కాకుండా నీ కోసం బ్రతుకు, అప్పుడే నువ్వు నిజమైన విజయం సాధిస్తావు.",
             "lesson": "నీ వాల్యూ ఏంటో తెలుసుకో, ఎవరి ముందూ తల దించకు.",
             "cta": "ఈ మాటలు నీకు నచ్చితే తప్పకుండా ఈ వీడియోని save చేసుకో. follow for more daily motivation.",
+            "caption": "మీరు ఎప్పుడైనా ఇలా ఫీల్ అయ్యారా? నిజం చెప్పండి 👇\n\nమన మీద మనకే నమ్మకం లేనప్పుడు, ఈ మాటలు గుర్తుచేసుకోండి. 🔥\n\n#telugu #telugumotivation #telugureels #inspiration #nevergiveup #viral",
+            "hashtags": "#telugu #telugumotivation #telugureels #inspiration #nevergiveup #viral",
             "highlight_words": ["నిమిషం", "life", "నమ్మకం", "టాలెంట్", "ధైర్యం", "విజయం", "వాల్యూ", "follow"],
             "emotion_map": {"0-3": "curious", "3-15": "story", "15-30": "emotional"},
             "broll_keywords": {
@@ -79,6 +81,8 @@ class StoryEngine:
             "emotional_payoff": "The peak emotional realization",
             "lesson": "The takeaway",
             "cta": "The call to action (CRITICAL: MUST ALWAYS BE PRESENT)",
+            "caption": "A highly engaging Instagram caption summarizing the reel in Telugu & English. Include a hook, some value, and a question to drive comments.",
+            "hashtags": "#telugu #telugumotivation #viral #trending (include 15-20 highly relevant and viral hashtags)",
             "highlight_words": ["important", "emotional", "words", "to", "highlight"],
             "emotion_map": {{"0-5": "curious", "5-35": "story"}},
             "broll_keywords": {{"hook": "...", "story": "...", "emotional_payoff": "...", "cta": "..."}},
