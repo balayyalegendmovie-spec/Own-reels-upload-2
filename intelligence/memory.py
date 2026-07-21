@@ -95,15 +95,10 @@ class MemoryManager:
             past_hook_words = set(past_hook.lower().split()) if past_hook else set()
             past_theme_words = set(past_theme.lower().split()) if past_theme else set()
             
-            # Simple word overlap similarity check
+            # Simple word overlap similarity check for the hook
             if hook_words and past_hook_words:
                 hook_overlap = len(hook_words.intersection(past_hook_words))
-                if hook_overlap / len(hook_words) > 0.4:  # Stricter: 40% overlap in hook
-                    return True
-                    
-            if theme_words and past_theme_words:
-                theme_overlap = len(theme_words.intersection(past_theme_words))
-                if theme_overlap / len(theme_words) > 0.5:  # Stricter: 50% overlap in theme
+                if hook_overlap / len(hook_words) > 0.4:  # 40% overlap in hook
                     return True
                     
         return False
