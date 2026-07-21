@@ -4,5 +4,11 @@
         "error": "not readable",
         "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 101, in run\n    json.load(f) # Just to ensure valid JSON before writing? No, json.dump.\n    ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n                 ^^^^^^^^^\nio.UnsupportedOperation: not readable\n",
         "timestamp": "2026-07-21T05:09:13.057153"
+    },
+    {
+        "task_id": "q_fallback_1",
+        "error": "Failed to generate a valid story after max retries.",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 96, in run\n    self._execute_pipeline(theme, current_task)\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 136, in _execute_pipeline\n    raise Exception(\"Failed to generate a valid story after max retries.\")\nException: Failed to generate a valid story after max retries.\n",
+        "timestamp": "2026-07-21T15:58:16.552967"
     }
 ]
