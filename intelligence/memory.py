@@ -23,6 +23,11 @@ class MemoryManager:
             try:
                 with open(file_to_load, 'r', encoding='utf-8') as f:
                     data = json.load(f)
+                    
+                    if not isinstance(data, dict):
+                        logger.warning(f"History file {file_to_load} has invalid structure (not a dict). Resetting.")
+                        data = {}
+                        
                     # Ensure stories_used is a list
                     if "stories_used" not in data:
                         data["stories_used"] = []
