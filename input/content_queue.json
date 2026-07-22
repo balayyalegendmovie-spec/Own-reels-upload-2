@@ -70,5 +70,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_tel_001",
+        "topic": "Overcoming the fear of societal judgment (Loki em anukuntaaro fear) and chasing your passion",
+        "emotion": "motivation",
+        "target_audience": "students and young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_tel_002",
+        "topic": "The power of silent hustle and working in private until success speaks for itself",
+        "emotion": "motivation",
+        "target_audience": "job seekers and aspiring entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_003",
+        "topic": "Realizing the unseen sacrifices parents make for our future before it is too late",
+        "emotion": "emotional",
+        "target_audience": "youth and young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_004",
+        "topic": "Finding inner peace by learning to detach from things you cannot control",
+        "emotion": "peace",
+        "target_audience": "working professionals and stressed students",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_005",
+        "topic": "Using failure and rejection as fuel to rebuild yourself stronger",
+        "emotion": "motivation",
+        "target_audience": "students and job aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
