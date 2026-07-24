@@ -115,5 +115,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_tel_001",
+        "topic": "Breaking free from digital distraction and phone addiction to reclaim deep focus and build real-life skills.",
+        "emotion": "motivation",
+        "target_audience": "students and Gen Z",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_tel_002",
+        "topic": "Escaping the 'I will be happy when...' trap: Stopped postponing your joy for future milestones and living in the present.",
+        "emotion": "peace",
+        "target_audience": "young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_003",
+        "topic": "Cutting out fake friendships and superficial validation: Why choosing intentional solitude is better than bad company.",
+        "emotion": "emotional",
+        "target_audience": "college students and young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_004",
+        "topic": "Financial discipline in your early 20s: Resisting the urge to show off on social media to build true wealth.",
+        "emotion": "motivation",
+        "target_audience": "young professionals and job seekers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_005",
+        "topic": "Dealing with self-doubt when peers seem to succeed faster: Trusting your own unique timeline and flower bloom moment.",
+        "emotion": "peace",
+        "target_audience": "graduates and job seekers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
