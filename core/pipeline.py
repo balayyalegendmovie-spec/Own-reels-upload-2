@@ -235,11 +235,28 @@ class Pipeline:
                         
                         mandatory_hashtags = "#fyp #goviral #viral #reelitfeelit #reelstagram #goviralig #ig #explore #explorepage #fyppage #growstagram #grow #beginning #new #Instagood #telugumotivation #lifelessons #teluguquotes #successmindset #telugushorts"
                     
-                        # Ensure hashtags aren't duplicated if the AI already included them in the caption
-                        if ai_hashtags not in ai_caption:
-                            caption = f"{ai_caption}\n\n{ai_hashtags}\n\n{mandatory_hashtags}"
-                        else:
-                            caption = f"{ai_caption}\n\n{mandatory_hashtags}"
+                        # Instagram enforces a STRICT 30 hashtag limit. Exceeding this clears the ENTIRE caption.
+                        import re
+                        
+                        # 1. Extract AI generated hashtags
+                        ai_hash_list = re.findall(r'#\w+', ai_caption + " " + ai_hashtags)
+                        mand_hash_list = mandatory_hashtags.split()
+                        
+                        # 2. Clean the original caption of inline hashtags so we don't double count
+                        clean_caption = re.sub(r'#\w+', '', ai_caption).strip()
+                        
+                        # 3. Combine, deduplicate, and limit to 28 max
+                        all_hashes = []
+                        seen = set()
+                        for h in mand_hash_list + ai_hash_list:
+                            h_lower = h.lower()
+                            if h_lower not in seen:
+                                seen.add(h_lower)
+                                all_hashes.append(h)
+                                
+                        final_hashes = " ".join(all_hashes[:28])
+                        
+                        caption = f"{clean_caption}\n\n{final_hashes}"
                             
                         logger.info(f"Final Caption prepared for upload:\n{caption}")
                         
