@@ -164,6 +164,11 @@ class StoryEngine:
         You are an expert Instagram Reel strategist for a Telugu motivational page.
         I need {count} BRAND NEW, viral topic ideas for short video reels.
         
+        Content Strategy:
+        - Alternate between Morning Themes and Evening Themes.
+        - Morning Themes: Discipline, daily goals, and high-energy motivation.
+        - Evening Themes: Life lessons, emotional resilience, and mindset shifts.
+        
         Recent topics we ALREADY did (DO NOT REPEAT THESE): {recent_topics}
         
         Output strictly as a JSON array of objects with this schema:

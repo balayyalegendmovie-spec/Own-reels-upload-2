@@ -232,12 +232,14 @@ class Pipeline:
                     if self.uploader.login():
                         ai_caption = story_data.get('caption', story_data.get('hook', ''))
                         ai_hashtags = story_data.get('hashtags', '#telugu #telugureels #motivation #trending')
+                        
+                        mandatory_hashtags = "#fyp #goviral #viral #reelitfeelit #reelstagram #goviralig #ig #explore #explorepage #fyppage #growstagram #grow #beginning #new #Instagood #telugumotivation #lifelessons #teluguquotes #successmindset #telugushorts"
                     
                         # Ensure hashtags aren't duplicated if the AI already included them in the caption
                         if ai_hashtags not in ai_caption:
-                            caption = f"{ai_caption}\n\n{ai_hashtags}"
+                            caption = f"{ai_caption}\n\n{ai_hashtags}\n\n{mandatory_hashtags}"
                         else:
-                            caption = ai_caption
+                            caption = f"{ai_caption}\n\n{mandatory_hashtags}"
                         
                         thumb = final_reel_path.replace(".mp4", "_thumb.jpg")
                         self.uploader.upload_reel(final_reel_path, caption, thumb)

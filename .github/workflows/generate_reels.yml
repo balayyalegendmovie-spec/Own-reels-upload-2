@@ -2,8 +2,15 @@ name: Daily Telugu Reel Factory
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # 8:30 AM IST
-    - cron: "30 13 * * *" # 7:00 PM IST
+    # Monday - Friday
+    - cron: "0 2 * * 1-5"   # 7:30 AM IST (Morning)
+    - cron: "0 14 * * 1-5"  # 7:30 PM IST (Evening)
+    # Saturday
+    - cron: "30 3 * * 6"    # 9:00 AM IST (Morning)
+    - cron: "30 12 * * 6"   # 6:00 PM IST (Evening)
+    # Sunday
+    - cron: "0 4 * * 0"     # 9:30 AM IST (Morning)
+    - cron: "30 14 * * 0"   # 8:00 PM IST (Evening)
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
