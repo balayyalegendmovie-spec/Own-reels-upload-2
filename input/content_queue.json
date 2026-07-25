@@ -160,5 +160,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_telugu_001",
+        "topic": "Conquering the snooze button: How winning the first 60 minutes of your morning creates an unstoppable winning momentum for your daily goals",
+        "emotion": "motivation",
+        "target_audience": "students, young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_telugu_002",
+        "topic": "Forgiving yourself for past mistakes and wasted years: Releasing guilt so your future is not held hostage by your past",
+        "emotion": "peace",
+        "target_audience": "young adults, career pivoters",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_003",
+        "topic": "The law of daily physical discipline: Why pushing your body beyond comfort every morning builds indestructible mental toughness",
+        "emotion": "motivation",
+        "target_audience": "youth, fitness enthusiasts, aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_004",
+        "topic": "Overcoming the panic of 'starting late': Understanding that restarting your life at any age is better than spending life in regret",
+        "emotion": "emotional",
+        "target_audience": "late 20s, struggling adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_005",
+        "topic": "The 1% compound rule: How execution of tiny, non-negotiable daily micro-habits creates exponential life transformation",
+        "emotion": "motivation",
+        "target_audience": "students, entrepreneurs, creatives",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
