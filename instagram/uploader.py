@@ -49,6 +49,17 @@ class InstagramUploader:
             )
             
             logger.info(f"Successfully uploaded reel! Media ID: {media.pk}")
+            
+            # WORKAROUND: instagrapi/Instagram sometimes strips captions on clip_upload from datacenter IPs.
+            # Force edit the media immediately after upload to inject the caption.
+            try:
+                time.sleep(3)
+                logger.info(f"Force updating caption for media {media.pk} as a workaround...")
+                self.client.media_edit(media.pk, caption)
+                logger.info("Caption force update successful.")
+            except Exception as e:
+                logger.warning(f"Failed to force update caption (it may have uploaded fine originally): {e}")
+                
             return True
         except Exception as e:
             logger.error(f"Failed to upload reel: {e}")
