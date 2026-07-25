@@ -240,6 +240,8 @@ class Pipeline:
                             caption = f"{ai_caption}\n\n{ai_hashtags}\n\n{mandatory_hashtags}"
                         else:
                             caption = f"{ai_caption}\n\n{mandatory_hashtags}"
+                            
+                        logger.info(f"Final Caption prepared for upload:\n{caption}")
                         
                         thumb = final_reel_path.replace(".mp4", "_thumb.jpg")
                         self.uploader.upload_reel(final_reel_path, caption, thumb)
