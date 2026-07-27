@@ -205,5 +205,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_morn_001",
+        "topic": "The Clean Slate Protocol: Resetting your mind every morning and executing 3 non-negotiable high-priority goals before midday",
+        "emotion": "motivation",
+        "target_audience": "students, job seekers, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_eve_002",
+        "topic": "Setting strict emotional boundaries: Stop over-investing in people who only treat you as an option when convenient",
+        "emotion": "emotional",
+        "target_audience": "young adults, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_003",
+        "topic": "The Solitary Morning Hour: Why starting your day with zero digital input and pure silence creates sharp, unbreakable mental focus",
+        "emotion": "motivation",
+        "target_audience": "students, young entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_eve_004",
+        "topic": "Dropping the desperate need to explain or prove yourself: Finding deep peace when you prioritize self-respect over winning arguments",
+        "emotion": "peace",
+        "target_audience": "young adults, working professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_005",
+        "topic": "Conquering the hardest task first: How attacking your biggest challenge early morning destroys anxiety and builds bulletproof confidence",
+        "emotion": "motivation",
+        "target_audience": "students, professionals, creators",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
