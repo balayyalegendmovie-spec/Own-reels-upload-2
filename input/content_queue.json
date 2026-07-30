@@ -250,5 +250,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_morn_0101",
+        "topic": "Self-Integrity Protocol: Treating promises you make to yourself with the exact same urgency and respect as a high-stakes meeting",
+        "emotion": "motivation",
+        "target_audience": "students, young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_eve_0102",
+        "topic": "Healing Without Bitterness: How to process sudden personal betrayal without letting it poison your capacity to trust good people",
+        "emotion": "emotional",
+        "target_audience": "young adults, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_0103",
+        "topic": "Eliminating Overthinking Through Velocity: Executing tasks within 5 seconds before your brain negotiates you into comfort and delay",
+        "emotion": "motivation",
+        "target_audience": "students, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_eve_0104",
+        "topic": "Self-Generated Closure: Accepting that disrespect was the answer and giving yourself peace without begging for an explanation",
+        "emotion": "peace",
+        "target_audience": "young adults, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_0105",
+        "topic": "Outworking Talent: Why disciplined daily intensity beats natural gifts and high IQ when building extraordinary skills",
+        "emotion": "motivation",
+        "target_audience": "students, young adults, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
