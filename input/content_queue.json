@@ -295,5 +295,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_monotonous_grind_01",
+        "topic": "The Monotonous Grind Advantage: Why mastering boring, unglamorous daily repetition separates high achievers from eternal dreamers",
+        "emotion": "motivation",
+        "target_audience": "students, young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_unseen_sacrifices_02",
+        "topic": "The Burden of Unspoken Sacrifices: Learning to validate your own worth when no one notices or applauds your silent daily struggles",
+        "emotion": "emotional",
+        "target_audience": "professionals, young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_minimum_baseline_03",
+        "topic": "Raising Your Minimum Baseline: Why shifting focus from ambitious high goals to non-negotiable daily floor standards guarantees consistency",
+        "emotion": "motivation",
+        "target_audience": "students, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_divine_redirection_04",
+        "topic": "The Gift of Rejection: Reframing painful failures and closed doors as essential redirection toward higher purpose and inner peace",
+        "emotion": "peace",
+        "target_audience": "young adults, job seekers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_zero_decision_fatigue_05",
+        "topic": "Zero-Decision Morning Protocol: How eliminating micro-choices before sunrise unleashes maximum cognitive energy for peak execution",
+        "emotion": "motivation",
+        "target_audience": "professionals, entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
