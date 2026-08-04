@@ -340,5 +340,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_morn_silent_build_01",
+        "topic": "The Silent Execution Protocol: Why working on your biggest goals in absolute secrecy for 90 days prevents external doubt and creates massive explosive success.",
+        "emotion": "motivation",
+        "target_audience": "students, young professionals, entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_eve_solitude_power_02",
+        "topic": "Reframing Solitude as Power: Learning to embrace being misunderstood or isolated without bitterness, turning lonely nights into periods of deep self-discovery.",
+        "emotion": "peace",
+        "target_audience": "young adults, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_prepackaged_momentum_03",
+        "topic": "Designing the Night Before: How setting physical environment triggers before sleep eliminates morning decision paralysis and launches immediate high-energy execution at dawn.",
+        "emotion": "motivation",
+        "target_audience": "students, working professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_eve_unplanned_detours_04",
+        "topic": "Trusting Life's Unplanned Detours: Accepting that missed opportunities and unexpected career shifts often protect you from paths that were never meant for your growth.",
+        "emotion": "emotional",
+        "target_audience": "job seekers, students, young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_identity_shift_05",
+        "topic": "The Identity Standard Shift: Moving from 'trying to build discipline' to embodying the identity of someone who treats their morning commitments as unbreakable law.",
+        "emotion": "motivation",
+        "target_audience": "fitness enthusiasts, young adults, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
