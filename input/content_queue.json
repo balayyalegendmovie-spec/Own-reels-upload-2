@@ -385,5 +385,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_morn_sunlight_anchor_01",
+        "topic": "The Morning Sunlight Anchor: Resetting your biology with 10 minutes of natural light and immediate movement upon waking to flood your brain with natural focus energy.",
+        "emotion": "motivation",
+        "target_audience": "students, young adults, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_eve_silent_withdrawal_02",
+        "topic": "The Silent Energy Withdrawal: Quietly pulling back your effort from one-sided relationships without initiating drama, confrontations, or social media statements.",
+        "emotion": "peace",
+        "target_audience": "young adults, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_deepwork_sprint_03",
+        "topic": "The 45-Minute Single-Task Sprint: Committing to zero-distraction deep work on one core skill every morning, compounding progress faster than 99% of your peers.",
+        "emotion": "motivation",
+        "target_audience": "students, entrepreneurs, career aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_eve_decouple_worth_04",
+        "topic": "Decoupling Self-Worth from Daily Productivity: Breaking the toxic cycle of self-hate on low-output days and allowing yourself to rest deeply without carrying underlying guilt.",
+        "emotion": "emotional",
+        "target_audience": "high achievers, students, working professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_discomfort_threshold_05",
+        "topic": "Raising Your Discomfort Threshold: Intentionally tackling an uncomfortable physical challenge at dawn to build mental callousness that makes daily stress feel effortless.",
+        "emotion": "motivation",
+        "target_audience": "fitness enthusiasts, youth, ambitious professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
