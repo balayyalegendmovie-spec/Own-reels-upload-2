@@ -430,5 +430,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_morn_010_frictionless_start",
+        "topic": "The Frictionless Start Technique: Eliminating physical and mental setup steps to engage your primary high-value task within 60 seconds of waking.",
+        "emotion": "motivation",
+        "target_audience": "students and young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_eve_011_emotional_tax",
+        "topic": "Auditing Emotional Tax: Recognizing how subtle cynicism from your immediate circle drains your ambition and learning to protect your vision without hostility.",
+        "emotion": "emotional",
+        "target_audience": "young adults and professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_012_three_wins",
+        "topic": "The Rule of 3 Dawn Wins: Defining three non-negotiable daily objectives every morning that ensure progress even when unexpected emergencies attempt to derail your day.",
+        "emotion": "motivation",
+        "target_audience": "ambitious professionals and entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_eve_013_reclaiming_peace",
+        "topic": "Reclaiming Peace Without Apologies: Releasing deep internal resentment by accepting that waiting for people to acknowledge their wrongdoings keeps you chained to their choices.",
+        "emotion": "peace",
+        "target_audience": "young adults and general audience",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_014_micro_compound",
+        "topic": "The 1% Micro-Skill Anchor: Committing to 20 minutes of hyper-focused skill deliberate practice at dawn to create an untouchable compound capability over 100 days.",
+        "emotion": "motivation",
+        "target_audience": "students, creators, and job seekers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
