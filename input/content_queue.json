@@ -475,5 +475,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_morning_velocity_01",
+        "topic": "The 5-Second Velocity Principle: Instantly launching out of bed upon the first alarm strike to train your subconscious mind that your word is absolute law.",
+        "emotion": "motivation",
+        "target_audience": "students, young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_evening_reactivity_02",
+        "topic": "The Selective Reactivity Protocol: Developing the emotional maturity to stop over-explaining yourself and letting quiet silence be your strongest answer to critics.",
+        "emotion": "peace",
+        "target_audience": "young adults, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morning_digital_fast_03",
+        "topic": "The First-Hour Digital Fast: Protecting your morning focus by completely eliminating phone usage for the first 60 minutes after waking to master reactive brain chemistry.",
+        "emotion": "motivation",
+        "target_audience": "students, creators, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_evening_forgiving_past_04",
+        "topic": "Forgiving Your Past Unwise Choices: Releasing latent self-blame and viewing past mistakes as essential tuition paid for your present inner strength.",
+        "emotion": "emotional",
+        "target_audience": "young adults, career changers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morning_priming_05",
+        "topic": "The Friction-as-Fuel Mental Priming: Spending 3 minutes at dawn visualizing upcoming daily obstacles not as setbacks, but as exact weight to build mental muscle.",
+        "emotion": "motivation",
+        "target_audience": "entrepreneurs, students, young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
