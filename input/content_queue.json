@@ -565,5 +565,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_reel_morning_01",
+        "topic": "The Cold-Water Threshold: Overcoming morning hesitation through deliberate cold exposure to instantly switch your brain into execution mode",
+        "emotion": "motivation",
+        "target_audience": "students and young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_reel_evening_01",
+        "topic": "The Law of Unspoken Ambition: Why quietly executing your biggest goals protects your drive and shields your focus from external skepticism",
+        "emotion": "emotional",
+        "target_audience": "aspiring entrepreneurs and youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_reel_morning_02",
+        "topic": "The Zero-Dopamine Morning Sandbox: Delaying all cheap pleasures for the first 2 hours to make intense focus feel effortless and rewarding",
+        "emotion": "motivation",
+        "target_audience": "competitive exam aspirants and developers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_reel_evening_02",
+        "topic": "The Freedom of Being Misunderstood: Learning that true inner peace begins when you stop trying to convince people who are committed to misunderstanding you",
+        "emotion": "peace",
+        "target_audience": "working professionals and creative thinkers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_reel_morning_03",
+        "topic": "The 100-Day Non-Negotiable Contract: Making a private dawn pact with yourself to outwork self-doubt and create undeniable proof of your potential",
+        "emotion": "motivation",
+        "target_audience": "young adults seeking discipline and career growth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
