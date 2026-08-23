@@ -655,5 +655,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "failed"
+    },
+    {
+        "id": "q_tel_morning_day_zero_01",
+        "topic": "The 'Day Zero' Morning Reset: Treating every single sunrise as day zero where past achievements and past failures are wiped clean, requiring you to re-earn your self-respect through immediate morning execution.",
+        "emotion": "motivation",
+        "target_audience": "young adults and aspiring entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_tel_evening_silent_ambition_02",
+        "topic": "The Power of Silent Ambition: Breaking the destructive habit of premature celebration by keeping your next big move secret until the results speak for themselves.",
+        "emotion": "peace",
+        "target_audience": "students and working professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_morning_friction_kill_03",
+        "topic": "The 90-Minute Hard-Task Lockdown: Attacking your most intimidating, highest-resistance task before breakfast so mental fatigue cannot negotiate you out of progress.",
+        "emotion": "motivation",
+        "target_audience": "students and competitive exam aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_evening_closure_paradox_04",
+        "topic": "Outgrowing the Need for Closure: Accepting that some people will never apologize or explain themselves, and realizing your own decision to move forward is the only closure required.",
+        "emotion": "emotional",
+        "target_audience": "young adults dealing with heartbreak and betrayal",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_morning_identity_shift_05",
+        "topic": "The Non-Negotiable Morning Standard: Shifting from 'trying to build habits' to embodying the identity of an unstoppable performer whose morning routine is as natural as breathing.",
+        "emotion": "motivation",
+        "target_audience": "professionals and creators",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
