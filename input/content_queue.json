@@ -790,5 +790,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "failed"
+    },
+    {
+        "id": "q_morning_ignition_01",
+        "topic": "The 5-Second Dawn Ignition: Eliminating micro-hesitations immediately upon waking to crush procrastination before your brain invents excuses.",
+        "emotion": "motivation",
+        "target_audience": "students and job aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "failed"
+    },
+    {
+        "id": "q_evening_people_pleasing_02",
+        "topic": "The Silent Poison of People-Pleasing: Realizing that every time you say 'yes' to others out of guilt, you say 'no' to your own life's vision.",
+        "emotion": "emotional",
+        "target_audience": "young professionals and youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morning_isolation_03",
+        "topic": "The Pre-Dawn Isolation Advantage: Leveraging the world's quietest hours to build unstoppable momentum while your competition is still asleep.",
+        "emotion": "motivation",
+        "target_audience": "entrepreneurs and ambitious youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_evening_outgrowing_circles_04",
+        "topic": "The Peace of Outgrowing Old Environments: Understanding that personal growth naturally leads to solitude before attracting your true tribe.",
+        "emotion": "peace",
+        "target_audience": "young adults and professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morning_dopamine_05",
+        "topic": "The Zero-Dopamine Morning Rule: Withholding instant gratification and entertainment until noon to unlock unfair cognitive focus and drive.",
+        "emotion": "motivation",
+        "target_audience": "students and creative professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
