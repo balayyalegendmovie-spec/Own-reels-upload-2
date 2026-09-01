@@ -112,5 +112,11 @@
         "error": "Failed to generate a valid story after max retries.",
         "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 96, in run\n    self._execute_pipeline(theme, current_task)\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 136, in _execute_pipeline\n    raise Exception(\"Failed to generate a valid story after max retries.\")\nException: Failed to generate a valid story after max retries.\n",
         "timestamp": "2026-09-01T07:00:42.656594"
+    },
+    {
+        "task_id": "q_morning_dopamine_05",
+        "error": "Failed to generate a valid story after max retries.",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 96, in run\n    self._execute_pipeline(theme, current_task)\n  File \"/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/core/pipeline.py\", line 136, in _execute_pipeline\n    raise Exception(\"Failed to generate a valid story after max retries.\")\nException: Failed to generate a valid story after max retries.\n",
+        "timestamp": "2026-09-01T17:40:15.894569"
     }
 ]
