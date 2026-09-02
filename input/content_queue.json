@@ -835,5 +835,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "failed"
+    },
+    {
+        "id": "q_tel_am_01",
+        "topic": "The 5-Second Sunrise Launch: Overcoming morning inertia by initiating physical movement immediately before your brain has time to negotiate with comfort.",
+        "emotion": "motivation",
+        "target_audience": "students and ambitious youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "failed"
+    },
+    {
+        "id": "q_tel_pm_01",
+        "topic": "The Quiet Pain of Outgrowing Your Circle: Embracing the temporary loneliness that occurs when your self-improvement outpaces your old environment.",
+        "emotion": "emotional",
+        "target_audience": "young adults and professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_am_02",
+        "topic": "The Zero-Distraction Morning Fortress: Protecting the first two hours of your day from digital noise to build radical mental clarity and focus.",
+        "emotion": "motivation",
+        "target_audience": "competitive exam aspirants and freelancers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_pm_02",
+        "topic": "The Art of Detaching from Societal Timelines: Finding deep inner peace by realizing your journey cannot be measured against someone else's highlight reel.",
+        "emotion": "peace",
+        "target_audience": "professionals facing family and societal pressure",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_am_03",
+        "topic": "The Unglamorous Daily Compound: Trusting the micro-victories done in complete silence because relentless consistency always outperforms sporadic genius.",
+        "emotion": "motivation",
+        "target_audience": "entrepreneurs, athletes, and students",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
