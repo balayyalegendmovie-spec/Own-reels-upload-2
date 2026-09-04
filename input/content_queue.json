@@ -880,5 +880,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "failed"
+    },
+    {
+        "id": "q_tel_morn_01",
+        "topic": "The 5-Second Ignition Rule: Breaking morning inertia and self-sabotage by forcing physical movement within five seconds before your brain rationalizes comfort.",
+        "emotion": "motivation",
+        "target_audience": "students and ambitious youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_tel_eve_02",
+        "topic": "The Hidden Cost of Unspoken Boundaries: Realizing that tolerating disrespect in the name of loyalty or family peace is a slow betrayal of your own dignity.",
+        "emotion": "emotional",
+        "target_audience": "young adults and working professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_morn_03",
+        "topic": "The 'First Domination' Law: Securing your first physical and mental victory before 7 AM so your brain is chemically wired to dominate challenges throughout the day.",
+        "emotion": "motivation",
+        "target_audience": "job seekers and competitive aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_eve_04",
+        "topic": "The Grace of Letting Bridges Burn: Embracing closure without an apology and recognizing that some endings are necessary life-saving departures, not losses.",
+        "emotion": "peace",
+        "target_audience": "young adults and heartbroken professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_morn_05",
+        "topic": "The Sweat Tax for Mental Clarity: Burning early morning cortisol through intense physical effort to destroy anxiety and build raw, unflinching execution power.",
+        "emotion": "motivation",
+        "target_audience": "entrepreneurs and corporate professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
