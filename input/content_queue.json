@@ -1150,5 +1150,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_am_micro_wins_01",
+        "topic": "The Micro-Win Protocol: Stacking three non-negotiable physical victories in the first 30 minutes to eliminate mental hesitation and establish instant execution momentum.",
+        "emotion": "motivation",
+        "target_audience": "students and young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_pm_wasted_talent_02",
+        "topic": "The Brutal Truth About Unused Talent: Confronting the silent regret of relying on potential without discipline, and accepting that consistent effort always defeats unapplied genius.",
+        "emotion": "emotional",
+        "target_audience": "youth and ambitious dreamers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_am_broken_promise_03",
+        "topic": "The 'Kill the Snooze' Contract: Treating your morning alarm as an integrity test and recognizing that hitting snooze trains your brain to normalize breaking promises to yourself.",
+        "emotion": "motivation",
+        "target_audience": "students and job aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_pm_silent_detachment_04",
+        "topic": "The Art of Selective Non-Reaction: Realizing that reacting to disrespect or gossip surrenders your inner power, and choosing disciplined silence as ultimate self-respect.",
+        "emotion": "peace",
+        "target_audience": "working professionals and young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_am_hardest_first_05",
+        "topic": "The 'Iron Hour' Execution: Obliterating your single most intimidating task before 9 AM to eliminate anxiety and make the remainder of the day completely friction-free.",
+        "emotion": "motivation",
+        "target_audience": "entrepreneurs and competitive exam aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
