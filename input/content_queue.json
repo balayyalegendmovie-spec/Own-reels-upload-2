@@ -1240,5 +1240,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "failed"
+    },
+    {
+        "id": "q_frog_first_01",
+        "topic": "The 'Eat the Frog' Morning Mandate: Crushing your single hardest, most dreaded task in the first hour to make the rest of the day effortless.",
+        "emotion": "motivation",
+        "target_audience": "students and working professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_rejection_redirect_02",
+        "topic": "The Hidden Blessing of Closed Doors: Understanding that rejection is not an attack on your worth, but protection from paths not meant for your destiny.",
+        "emotion": "peace",
+        "target_audience": "job seekers and young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_identity_shift_03",
+        "topic": "The Non-Negotiable 1% Rule: Committing to one small daily action that your future successful self demands, irrespective of how unmotivated you feel.",
+        "emotion": "motivation",
+        "target_audience": "aspirants and entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_overexplaining_trap_04",
+        "topic": "The Cost of Seeking Validation: Ending the habit of over-explaining your dreams and boundaries to people who are comfortable staying average.",
+        "emotion": "emotional",
+        "target_audience": "young adults and career changers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_mirror_confrontation_05",
+        "topic": "The Morning Mirror Reality Check: Asking yourself if your daily habits match the level of your ambitions before stepping out the door.",
+        "emotion": "motivation",
+        "target_audience": "college students and ambitious youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
