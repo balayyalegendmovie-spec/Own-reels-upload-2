@@ -1285,5 +1285,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_morning_digital_fast_01",
+        "topic": "The First-Hour Digital Fast: Refusing to touch your smartphone for the first 60 minutes of the day to protect your focus and reclaim mental control.",
+        "emotion": "motivation",
+        "target_audience": "students and young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "failed"
+    },
+    {
+        "id": "q_evening_silent_outgrowth_02",
+        "topic": "The Dignity of Outgrowing People: Accepting that naturally drifting away from old circles is part of personal evolution, not an act of betrayal.",
+        "emotion": "peace",
+        "target_audience": "young adults and working professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morning_baseline_discipline_03",
+        "topic": "The Non-Negotiable Floor: Showing up to execute your minimum standards on your lowest-energy days to build unbreakable self-trust.",
+        "emotion": "motivation",
+        "target_audience": "competitive exam aspirants and entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_evening_silent_struggles_04",
+        "topic": "The Strength in Unseen Tears: Recognizing that the silent battles nobody applauds you for are the exact ones shaping your inner steel.",
+        "emotion": "emotional",
+        "target_audience": "struggling dreamers and job seekers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morning_reckless_action_05",
+        "topic": "The 5-Second Friction Break: Launching into intimidating, high-value tasks before your brain invents comfort-seeking excuses.",
+        "emotion": "motivation",
+        "target_audience": "students and creators",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
