@@ -1375,5 +1375,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "failed"
+    },
+    {
+        "id": "q_telugu_morn_01",
+        "topic": "The Zero-Notification First Hour: Protecting mental clarity and sovereign focus by refusing to touch your phone before completing your morning routine.",
+        "emotion": "motivation",
+        "target_audience": "students, ambitious youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "failed"
+    },
+    {
+        "id": "q_telugu_eve_02",
+        "topic": "The Debt of Silent Sacrifices: Honoring the invisible struggles your parents endured to give you this starting line, transforming family love into unstoppable resilience.",
+        "emotion": "emotional",
+        "target_audience": "young adults, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_morn_03",
+        "topic": "The 24-Hour Clean Slate Protocol: Refusing to let yesterday's failures dictate today's energy, claiming total ownership of the fresh 86,400 seconds ahead.",
+        "emotion": "motivation",
+        "target_audience": "students, job seekers, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_eve_04",
+        "topic": "The Peace of Controlled Detachment: Understanding that worrying in bed tonight cannot change tomorrow, choosing deep peace over chronic overthinking.",
+        "emotion": "peace",
+        "target_audience": "professionals, overthinkers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_morn_05",
+        "topic": "The Future Identity Standard: Making decisions today based on the character of the successful person you want to become in five years, not your current limitations.",
+        "emotion": "motivation",
+        "target_audience": "entrepreneurs, students, young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
