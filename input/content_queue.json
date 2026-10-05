@@ -1420,5 +1420,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "failed"
+    },
+    {
+        "id": "q_morning_zero_scroll",
+        "topic": "The Zero-Dopamine First Hour: Resisting the urge to open social media notifications upon waking, treating your morning brain as sacred ground for focus rather than a billboard for other people's lives.",
+        "emotion": "motivation",
+        "target_audience": "students and young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_evening_silent_outgrowth",
+        "topic": "The Quiet Reality of Outgrowing Circles: Realizing that losing touch with old friends as your priorities shift is not betrayal or arrogance, but the natural evolution of focused self-transformation.",
+        "emotion": "emotional",
+        "target_audience": "young adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morning_velocity_standard",
+        "topic": "The 5-Second Cold Launch: Refusing to debate fatigue in your head, using immediate physical action to execute your morning routine before your brain can negotiate comfort.",
+        "emotion": "motivation",
+        "target_audience": "competitive exam aspirants and youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_evening_unfought_battles",
+        "topic": "The Power of Leaving Petty Battles Unfought: Choosing to sleep in absolute stillness tonight by realizing that reacting to critics or disrespect only costs you your own energy.",
+        "emotion": "peace",
+        "target_audience": "working professionals and adults",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morning_self_trust_deposit",
+        "topic": "The Integrity Deposit: Starting the morning by keeping the promises you made to yourself when nobody was watching, turning raw discipline into unstoppable self-respect.",
+        "emotion": "motivation",
+        "target_audience": "students and career-driven individuals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
