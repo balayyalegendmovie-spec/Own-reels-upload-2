@@ -1465,5 +1465,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "failed"
+    },
+    {
+        "id": "q_telugu_morning_ignition_01",
+        "topic": "The 5-Second Ignition Rule: Snapping out of mental inertia instantly before your brain rationalizes laziness, forcing rapid physical action to dominate your morning agenda.",
+        "emotion": "motivation",
+        "target_audience": "students and competitive exam aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "failed"
+    },
+    {
+        "id": "q_telugu_evening_solitude_02",
+        "topic": "The Solitude Filter: Realizing that outgrowing your old circle isn't loneliness, but the quiet price of raising your personal standards and stepping into maturity.",
+        "emotion": "emotional",
+        "target_audience": "young adults and job seekers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_morning_currency_03",
+        "topic": "The Attention-as-Currency Protocol: Guarding your first two hours of mental focus like wealth instead of handing out free access to other people's chaos.",
+        "emotion": "motivation",
+        "target_audience": "working professionals and entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_evening_stealth_04",
+        "topic": "The Power of Stealth Execution: Releasing the urge to announce your next move to the world, finding deep peace in letting silent discipline build your results.",
+        "emotion": "peace",
+        "target_audience": "ambitious youth and overthinkers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_morning_accountability_05",
+        "topic": "The Anti-Victim Awakening: Refusing to start the day blaming external circumstances and choosing ruthless ownership over your energy, attitude, and output.",
+        "emotion": "motivation",
+        "target_audience": "college students and corporate professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
