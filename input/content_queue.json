@@ -1510,5 +1510,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_morning_identity_shift_01",
+        "topic": "The Identity Shift Wake-Up: Treating your morning routine not as a chore, but as direct proof that you have outgrown the undisciplined version of your past self.",
+        "emotion": "motivation",
+        "target_audience": "young adults and job seekers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_evening_silent_closure_02",
+        "topic": "The Grace of Unspoken Closure: Understanding that you don't need an apology or final conversation to move on, choosing self-respect over lingering resentment.",
+        "emotion": "peace",
+        "target_audience": "young professionals and college students",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morning_velocity_rule_03",
+        "topic": "The 5-Second Friction Crusher: Launching into your most dreaded physical and mental tasks instantly before your self-doubt has time to negotiate.",
+        "emotion": "motivation",
+        "target_audience": "students and aspiring entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_evening_invisible_scars_04",
+        "topic": "The Wisdom of Delayed Breakthroughs: Releasing the shame of feeling behind in life, realizing that deep roots take the longest time to show surface blooms.",
+        "emotion": "emotional",
+        "target_audience": "late 20s professionals and dreamers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morning_urgency_reckoning_05",
+        "topic": "The Finite Calendar Awakening: Using the stark reality of fleeting time not to induce anxiety, but to ignite fearless, unapologetic execution on your core ambitions today.",
+        "emotion": "motivation",
+        "target_audience": "creators and ambitious youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
