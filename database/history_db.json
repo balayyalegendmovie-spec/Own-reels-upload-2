@@ -647,6 +647,12 @@
             "theme": "life lessons",
             "emotion": "peace",
             "timestamp": "2026-10-13T20:41:23.695196"
+        },
+        {
+            "hook": "నువ్వు మెసేజ్ చేయడం ఆపేస్తే ఎంతమంది నీ గురించి అడుగుతారో ఎప్పుడైనా గమనించావా?",
+            "theme": "life lessons",
+            "emotion": "peace",
+            "timestamp": "2026-10-14T07:02:18.306220"
         }
     ],
     "videos_used": [
@@ -1081,7 +1087,11 @@
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/girl_looking_thoughtful_by_window_with_coffee_cup_a783a0.mp4",
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/young_woman_walking_alone_in_quiet_park_holding_phone_42a825.mp4",
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/soft_warm_sunlight_falling_on_girl_smiling_gently_3eaaba.mp4",
-        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/girl_looking_directly_into_camera_with_friendly_smile_f6caf0.mp4"
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/girl_looking_directly_into_camera_with_friendly_smile_f6caf0.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/girl_looking_thoughtfully_at_phone_screen_silent_room_b67055.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/empty_message_inbox_notification_waiting_lonely_coffee_cup_window_rain_90f858.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/girl_smiling_peacefully_walking_outside_sunset_calm_breeze_db8d22.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/girl_smiling_warmly_directly_at_camera_holding_warm_mug_62f4bf.mp4"
     ],
     "music_used": [
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_2.mp3",
@@ -1174,6 +1184,7 @@
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_4.mp3",
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_6.mp3",
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_8.mp3",
-        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_1.mp3"
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_1.mp3",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/peaceful/jamendo_peaceful_9.mp3"
     ]
 }
