@@ -1645,5 +1645,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_reel_morn_01",
+        "topic": "The 9 AM Goliath Rule: Conquering your day's single most intimidating task before breakfast, turning fear into an avalanche of unstoppable daily momentum.",
+        "emotion": "motivation",
+        "target_audience": "students and competitive exam aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_reel_eve_02",
+        "topic": "The Dignity of Zero: Embracing the sting of starting over, understanding that rebuilds in your twenties or thirties aren't failures, but upgrades built on experience.",
+        "emotion": "emotional",
+        "target_audience": "struggling young adults and career switchers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_reel_morn_03",
+        "topic": "The Mood-Proof Execution Standard: Divorcing your work ethic from your temporary feelings, waking up to honor commitments rather than fleeting emotions.",
+        "emotion": "motivation",
+        "target_audience": "young professionals and entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_reel_eve_04",
+        "topic": "The Silence of Unproved Worth: Laying your head down tonight without the exhausting urge to validate your journey to relatives, resting in quiet self-assurance.",
+        "emotion": "peace",
+        "target_audience": "job seekers and family-pressured youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_reel_morn_05",
+        "topic": "The No-Rehearsal Reality: Attacking this morning with fierce urgency, realizing today is not practice for your real life, but the actual arena where it happens.",
+        "emotion": "motivation",
+        "target_audience": "ambitious youth and creators",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
