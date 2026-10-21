@@ -1690,5 +1690,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_tel_morn_domino",
+        "topic": "The First Domino Protocol: Demolishing morning inertia by executing one non-negotiable micro-task before 7 AM, igniting psychological momentum that dominates the entire day.",
+        "emotion": "motivation",
+        "target_audience": "students and early career professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_tel_eve_sundown",
+        "topic": "The Sundown Debt Relief: Releasing the guilt of today's unfinished tasks and flaws before bed, realizing self-punishment only exhausts the warrior needed for tomorrow.",
+        "emotion": "peace",
+        "target_audience": "young adults and chronic overthinkers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_morn_contract",
+        "topic": "The Iron Contract Awakening: Refusing to negotiate with the snooze button, treating promises made to your future self as sacred vows rather than optional morning suggestions.",
+        "emotion": "motivation",
+        "target_audience": "entrepreneurs and ambitious youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_eve_redirection",
+        "topic": "The Sacred Closed Door: Reframing sudden career rejections and unreturned loyalty as protective redirections rather than personal defeats as you rest tonight.",
+        "emotion": "emotional",
+        "target_audience": "job seekers and young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_morn_fortress",
+        "topic": "The Fortress of High-Leverage Labor: Dedicating the first hour of daylight to master one complex skill while the rest of the world is still reacting to notifications.",
+        "emotion": "motivation",
+        "target_audience": "students, creators, and freelancers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
