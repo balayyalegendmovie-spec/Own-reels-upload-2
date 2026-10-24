@@ -1735,5 +1735,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "failed"
+    },
+    {
+        "id": "q_morn_friction_kill_01",
+        "topic": "The 5-Second Friction Kill: Eliminating the micro-hesitation between waking up and executing your first physical movement before your brain invents comfortable excuses.",
+        "emotion": "motivation",
+        "target_audience": "students and competitive exam aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_eve_elevation_cost_02",
+        "topic": "The Quiet Elevation Cost: Accepting that leveling up mentally and financially requires outgrowing old comfort circles, recognizing solitude not as rejection but as necessary evolution.",
+        "emotion": "peace",
+        "target_audience": "young adults and ambitious professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_unsexy_standard_03",
+        "topic": "The Boring Reps Standard: Attacking the day with the understanding that massive success comes from falling in love with the repetitive, unglamorous daily tasks that nobody claps for.",
+        "emotion": "motivation",
+        "target_audience": "freelancers and aspiring entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_eve_unsolicited_rescue_04",
+        "topic": "The Exhaustion of Unsolicited Rescue: Releasing the draining urge to fix people who are committed to misunderstanding you, choosing tonight to protect your inner peace instead of saving everyone else.",
+        "emotion": "emotional",
+        "target_audience": "empathetic young adults and corporate employees",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_dopamine_lock_05",
+        "topic": "The Zero-Dopamine Sanctuary: Refusing to touch social media for the first 60 minutes after sunrise, forcing your mind to produce focus from within rather than borrowing stimulation from algorithms.",
+        "emotion": "motivation",
+        "target_audience": "college students and creative professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
