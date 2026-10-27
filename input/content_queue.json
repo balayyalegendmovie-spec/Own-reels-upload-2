@@ -1780,5 +1780,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_tel_morning_hunger_reset",
+        "topic": "The Sunrise Hunger Reset: Treating today as Day One, refusing to let yesterday's comfort or minor wins make you soft in this morning's arena.",
+        "emotion": "motivation",
+        "target_audience": "young adults, ambitious professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_tel_evening_unspoken_defense",
+        "topic": "The Grace of the Unspoken Defense: Going to sleep tonight without sending that reactive explanatory text, letting your consistency speak louder than defensive paragraphs.",
+        "emotion": "peace",
+        "target_audience": "young professionals, college students",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_morning_isolation_protocol",
+        "topic": "The 90-Minute Isolation Protocol: Locking yourself into zero-distraction execution before noon, knocking out your highest-leverage work before other people's chaos hijacks your schedule.",
+        "emotion": "motivation",
+        "target_audience": "competitive exam aspirants, entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_evening_alchemical_perspective",
+        "topic": "The Alchemical Perspective: Laying down tonight with quiet gratitude for your hardest rock-bottom season, recognizing that your current emotional armor was forged entirely inside those exact fires.",
+        "emotion": "emotional",
+        "target_audience": "struggling youth, career rebuilders",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_morning_standard_over_feeling",
+        "topic": "The Absolute Standard: Stepping into the day realizing that winners don't ask themselves how they feel before working; they operate strictly on self-respect and non-negotiable promises.",
+        "emotion": "motivation",
+        "target_audience": "students, fitness and career seekers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
