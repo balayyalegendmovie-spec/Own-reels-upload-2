@@ -1825,5 +1825,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_tel_am_arch_01",
+        "topic": "The Architect vs Passenger Protocol: Waking up to aggressively engineer your calendar with fierce intentionality before the outside world hijacks your attention.",
+        "emotion": "motivation",
+        "target_audience": "young professionals and ambitious students",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_tel_pm_bamboo_02",
+        "topic": "The Bamboo Underground Season: Letting your heart rest tonight knowing that silent, invisible foundation-building in obscurity yields unstoppable future breakthroughs.",
+        "emotion": "peace",
+        "target_audience": "struggling entrepreneurs and competitive exam aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_am_bloodline_03",
+        "topic": "The Bloodline Breaker's Awakening: Stepping into this morning recognizing that rewriting your family's financial destiny requires cold discipline rather than casual effort.",
+        "emotion": "motivation",
+        "target_audience": "middle-class youth and first-generation career builders",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_pm_bridges_04",
+        "topic": "The Release of One-Sided Bridges: Reclaiming your self-worth tonight by permanently dropping the burden of over-investing in friends who never prioritize you.",
+        "emotion": "emotional",
+        "target_audience": "young adults and college graduates",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_am_sovereign_05",
+        "topic": "The Sovereign 60-Minute Strike: Dedicating your sharpest morning hour exclusively to master-level skill acquisition before reacting to anyone else's demands.",
+        "emotion": "motivation",
+        "target_audience": "freelancers, career switchers, and professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
