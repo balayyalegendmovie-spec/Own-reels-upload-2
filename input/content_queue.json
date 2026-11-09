@@ -2005,5 +2005,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_tel_am_01",
+        "topic": "The Morning Friction Kill: Conquering your most feared and postponed task before 8 AM, making the rest of the day bow to your unstoppable momentum.",
+        "emotion": "motivation",
+        "target_audience": "students and ambitious youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_tel_pm_02",
+        "topic": "The Sunset Self-Approval Audit: Unplugging tonight with the realization that seeking validation from people who do not even know their own purpose is an insult to your potential.",
+        "emotion": "peace",
+        "target_audience": "young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_am_03",
+        "topic": "The 24-Hour Vault Protocol: Waking up treating today's focus as non-refundable currency, refusing to spend a single penny of your energy on petty drama or trivial arguments.",
+        "emotion": "motivation",
+        "target_audience": "young adults and creators",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_pm_04",
+        "topic": "The Tuition of the Past: Forgiving yourself tonight for wasted years and poor past choices, recognizing that heartbreak and bad turns were expensive lessons, not life sentences.",
+        "emotion": "emotional",
+        "target_audience": "career starters and recovering dreamers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_tel_am_05",
+        "topic": "The Lone Rescue Realization: Stepping into this morning understanding that no mentor, partner, or miracle is coming to build your dream\u2014you are your own rescue team.",
+        "emotion": "motivation",
+        "target_audience": "students and early entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
