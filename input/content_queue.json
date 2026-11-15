@@ -2095,5 +2095,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_morn_non_negotiable_std",
+        "topic": "The Non-Negotiable Standard: Commencing your morning by executing your personal promises with military precision, eliminating the toxic habit of negotiating with your own excuses.",
+        "emotion": "motivation",
+        "target_audience": "students and ambitious youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_eve_outgrowth_grace",
+        "topic": "The Silent Outgrowth Grace: Sleeping peacefully tonight knowing that distancing yourself from circles where your ambition is ridiculed isn't arrogance\u2014it is self-preservation.",
+        "emotion": "peace",
+        "target_audience": "young adults and professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_screenless_dawn",
+        "topic": "The Screenless Dawn Dominance: Locking away social media notifications for the first 90 minutes of your morning to protect dopamine levels and command supreme mental clarity.",
+        "emotion": "motivation",
+        "target_audience": "students and digital professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_eve_unseen_warrior",
+        "topic": "The Unseen Warrior's Rest: Reminding your exhausted soul tonight that enduring silent family and career battles without applause is forging an unshakeable legacy.",
+        "emotion": "emotional",
+        "target_audience": "job seekers and middle-class youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_imperfect_execution",
+        "topic": "The Imperfect Execution Charge: Attacking today with the relentless conviction that aggressive, imperfect daily action defeats paralyzed perfectionism every single time.",
+        "emotion": "motivation",
+        "target_audience": "entrepreneurs and creators",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
