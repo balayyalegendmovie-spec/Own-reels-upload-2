@@ -2140,5 +2140,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_telugu_morn_001",
+        "topic": "The Zero-Option Morning: Destroying the mental backup plan for your daily workout or study block before stepping out of bed, treating failure to execute as simply non-existent.",
+        "emotion": "motivation",
+        "target_audience": "students and competitive exam aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_telugu_eve_002",
+        "topic": "The Unspoken Burden Release: Going to sleep tonight understanding that carrying the entire financial and emotional weight of your family shouldn't break your spirit; you cannot pour from an empty cup.",
+        "emotion": "emotional",
+        "target_audience": "young adults and sole breadwinners",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_morn_003",
+        "topic": "The Silent Underground Siege: Attacking your morning in absolute stealth, letting rivals assume you have quit while you quietly build an undeniable, earth-shaking comeback.",
+        "emotion": "motivation",
+        "target_audience": "entrepreneurs and frustrated job seekers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_eve_004",
+        "topic": "The Late Bloomer Peace: Unwinding tonight with the profound truth that your timeline is not ruined just because peers married or bought houses first; bamboo spends years growing roots before shooting skyward.",
+        "emotion": "peace",
+        "target_audience": "graduates and career switchers in their late 20s",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_telugu_morn_005",
+        "topic": "The 100% Ownership Vow: Starting this sunrise by ruthlessly burying all excuses about your background, family wealth, or lack of connections, taking radical responsibility for your destiny.",
+        "emotion": "motivation",
+        "target_audience": "ambitious youth and underdogs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
