@@ -2185,5 +2185,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_sunrise_identity_shift_01",
+        "topic": "The Sunrise Identity Shift: Stepping into today not as someone trying to be consistent, but as a person whose self-respect demands honoring every morning commitment without debate.",
+        "emotion": "motivation",
+        "target_audience": "students and young professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "failed"
+    },
+    {
+        "id": "q_closed_door_grace_02",
+        "topic": "The Quiet Gratitude for Closed Doors: Sleeping peacefully tonight realizing that harsh rejections in career and love were life's brutal way of saving you from rooms you would have outgrown.",
+        "emotion": "peace",
+        "target_audience": "job seekers and heartbroken youth",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_first_hour_dominance_03",
+        "topic": "The First Hour Ruthlessness: Conquering your deepest intellectual or physical challenge while the world is still asleep, building an unbreakable psychological lead before 7 AM.",
+        "emotion": "motivation",
+        "target_audience": "competitive exam aspirants and entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_solitude_tax_reframe_04",
+        "topic": "The Solitude Tax Reframe: Going to bed tonight embracing deep isolation not as abandonment, but as the mandatory quiet period where uncommon champions are forged away from the crowd.",
+        "emotion": "emotional",
+        "target_audience": "ambitious youth and struggling creators",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_dopamine_fast_surge_05",
+        "topic": "The Dopamine Starvation Surge: Kicking off this morning starving your brain of cheap thrills, converting that restless mental hunger into ferocious, undivided creative focus.",
+        "emotion": "motivation",
+        "target_audience": "distracted students and remote professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
