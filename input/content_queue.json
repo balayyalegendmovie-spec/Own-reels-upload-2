@@ -2256,7 +2256,7 @@
         "target_audience": "general",
         "language": "telugu",
         "style": "cinematic",
-        "status": "pending"
+        "status": "failed"
     },
     {
         "id": "q_fallback_3",
