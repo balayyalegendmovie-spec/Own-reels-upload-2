@@ -971,6 +971,12 @@
             "theme": "life lessons",
             "emotion": "peace",
             "timestamp": "2026-11-24T01:36:49.071098"
+        },
+        {
+            "hook": "ఒక చేదు నిజం చెప్పనా? నువ్వు ఎంత ఇచ్చినా కొందరికి సరిపోదు.",
+            "theme": "life lessons",
+            "emotion": "peace",
+            "timestamp": "2026-11-25T23:02:57.498535"
         }
     ],
     "videos_used": [
@@ -1621,7 +1627,11 @@
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/girl_looking_out_coffee_shop_window_rain_dbaf80.mp4",
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/lonely_night_walk_streetlights_solitary_girl_diary_writing_4e5c8b.mp4",
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/gentle_sunrise_girl_smiling_taking_deep_breath_wind_in_hair_89e567.mp4",
-        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/girl_smiling_directly_into_camera_warm_eye_contact_0cf120.mp4"
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/girl_smiling_directly_into_camera_warm_eye_contact_0cf120.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/girl_looking_directly_into_camera_thoughtful_expression_coffee_cup_434294.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/evening_rain_window_alone_phone_screen_blurred_lights_5d1a8a.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/calm_sunset_ocean_breeze_girl_smiling_softly_self_acceptance_ff44cd.mp4",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/videos/dynamic/friendly_smile_camera_movement_inviting_conversation_warm_lighting_06c69e.mp4"
     ],
     "music_used": [
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_2.mp3",
@@ -1763,6 +1773,7 @@
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_2.mp3",
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_5.mp3",
         "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_0.mp3",
-        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_4.mp3"
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_4.mp3",
+        "/home/runner/work/Own-reels-upload-2/Own-reels-upload-2/music/motivation/jamendo_motivation_3.mp3"
     ]
 }
