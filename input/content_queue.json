@@ -2320,5 +2320,50 @@
         "language": "telugu",
         "style": "cinematic",
         "status": "completed"
+    },
+    {
+        "id": "q_morn_30min_smash",
+        "topic": "The Resistance Smasher: Attacking your most intimidating, high-friction task within 30 minutes of waking up, instantly destroying day-long anxiety through aggressive front-loaded execution.",
+        "emotion": "motivation",
+        "target_audience": "students, competitive exam aspirants, professionals",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "completed"
+    },
+    {
+        "id": "q_eve_applause_detox",
+        "topic": "The Applause Detox: Closing your eyes tonight realizing that begging for validation from relatives and critics who never saw your midnight tears is foolish; your self-respect is your only true metric.",
+        "emotion": "emotional",
+        "target_audience": "young adults, middle-class youth, family-pressured strivers",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_clean_slate",
+        "topic": "The Day-One Rebirth: Stepping out of bed treating today as the absolute first day of your life, burning away the paralyzing guilt of yesterday's broken promises and zeroing in on immediate action.",
+        "emotion": "motivation",
+        "target_audience": "job seekers, repeaters, struggling entrepreneurs",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_eve_closed_door",
+        "topic": "The Closed Door Sanctuary: Resting your mind tonight knowing that every painful rejection from jobs, visas, or relationships was life violently redirecting you away from settling for a smaller destiny.",
+        "emotion": "peace",
+        "target_audience": "graduates, career transitioners, heartbreak survivors",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
+    },
+    {
+        "id": "q_morn_hunger_edge",
+        "topic": "The Underdog Hunger Advantage: Rising this morning using your empty bank account and lack of safety nets not as handicaps, but as an uncontrollable, ruthless fire privileged rivals can never match.",
+        "emotion": "motivation",
+        "target_audience": "underdog youth, rural students, self-made aspirants",
+        "language": "telugu",
+        "style": "cinematic",
+        "status": "pending"
     }
 ]
